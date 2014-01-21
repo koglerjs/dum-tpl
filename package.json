@@ -1,0 +1,36 @@
+{
+  "name": "dum-tpl",
+  "description": "CommonJS module for generating and running template render functions with a limited Mustache syntax.",
+  "version": "0.0.4",
+  "homepage": "https://github.com/koglerjs/dum-tpl",
+  "author": {
+    "name": "Jim Kogler",
+    "url": "https://koglerjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/koglerjs/dum-tpl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koglerjs/dum-tpl/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-internal": "~0.4.2",
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "template", "mustache"
+  ],
+  "files": [
+    "lib"
+  ]
+}
