@@ -97,6 +97,3 @@ Operational freedom.  The operational freedom of a programming language, not the
 I don't use DUM at enough scale to be completely confident or comfortable with its performance or (more importantly) its ability to provoke maintainable code.  
 
 It is still a research tool, not a production-ready technology, even if I intend to stick with it for the foreseeable future.  
-
-&&&
-^^^
