@@ -8,13 +8,13 @@ DUM dum.
 
     {{ugg}}
 
-print ugg if ugg number or ugg string.  ugg _NO_ HTML-escaped.   print nothing ugg falsy.  
+print value ugg if ugg number or ugg string.  ugg _NO_ HTML-escaped.   print nothing ugg falsy.  
 
 else DUM _error!_  no ugg object.  no ugg array. 
 
-    {{#ugg}}{{ugg}}{{/ugg}}
+    {{#ugg}}{{ugg}} thonk{{/ugg}}
 
-ugg truthy print ugg.  
+ugg truthy print "ugg thonk".  
 
     {{^ugg}}rrg{{/ugg}}
 
@@ -27,10 +27,10 @@ DUM no work deep objects.  DUM check flat object only.
     obj = {ugg:true, rrg: false, thonk: "thonk"}
 
     {{#ugg}}
-    	{{thonk}}
-    	{{^rrg}}
-    	    thunk!
-    	{{/rrg}}
+        {{thonk}}
+        {{^rrg}}
+            thunk!
+        {{/rrg}}
     {{/ugg}}
 
 good DUM.  show "thonk thunk!"
