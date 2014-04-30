@@ -17,13 +17,17 @@ else DUM _error!_  no ugg object.  no ugg array.
 
 ugg truthy print value ugg then "thonk".  
 
-ugg falsy print rrg.  
+ugg falsy print "rrg".  
 
 ---
 
 DUM no work deep objects.  DUM check flat object only.  
 
-    obj = {ugg:true, rrg: false, thonk: "thonk"}
+    obj = {
+        ugg:true,
+        rrg: false,
+        thonk: "thonk"
+    }
 
     {{#ugg}}
         {{thonk}}
