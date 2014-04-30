@@ -13,10 +13,9 @@ print value ugg if ugg number or ugg string.  ugg _NO_ HTML-escaped.   print not
 else DUM _error!_  no ugg object.  no ugg array. 
 
     {{#ugg}}{{ugg}} thonk{{/ugg}}
-
-ugg truthy print "ugg thonk".  
-
     {{^ugg}}rrg{{/ugg}}
+
+ugg truthy print value ugg then "thonk".  
 
 ugg falsy print rrg.  
 
